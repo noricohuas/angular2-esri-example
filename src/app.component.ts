@@ -1,9 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
-import { MapComponent } from './map.component';
-import { SearchComponent } from './search.component';
-import { LegendComponent } from './legend.component';
-import { BasemapSelect } from './basemapselect.component';
-import { LayerComponent } from './layer.component';
+import { MapComponent } from './app/components/map.component';
+import { SearchComponent } from './app/components/search.component';
+import { LegendComponent } from './app/components/legend.component';
+import { BasemapSelect } from './app/components/basemapselect.component';
+import { LayerComponent } from './app/components/layer.component';
 
 @Component({
     selector: 'my-app',

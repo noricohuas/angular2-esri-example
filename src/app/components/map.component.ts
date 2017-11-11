@@ -1,5 +1,5 @@
 import { Component, ElementRef, Output, EventEmitter } from '@angular/core';
-import { MapService } from './map.service';
+import { MapService } from '../services/map.service';
 
 @Component({
   selector: 'esri-map',

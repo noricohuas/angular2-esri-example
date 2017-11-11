@@ -3,7 +3,7 @@ var webpack = require("webpack");
 module.exports = {
     entry: {
         main: [
-            './app/boot.ts' // entry point for your application code
+            './src/boot.ts' // entry point for your application code
         ],
         vendor: [
             // put your third party libs here

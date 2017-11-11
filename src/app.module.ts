@@ -2,16 +2,16 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-import { MapComponent } from './map.component';
-import { SearchComponent } from './search.component';
-import { LegendComponent } from './legend.component';
-import { BasemapSelect } from './basemapselect.component';
-import { LayerComponent } from './layer.component';
-import { TabComponent } from './tab.component';
-import { TabsComponent } from './tabs.component';
+import { MapComponent } from './app/components/map.component';
+import { SearchComponent } from './app/components/search.component';
+import { LegendComponent } from './app/components/legend.component';
+import { BasemapSelect } from './app/components/basemapselect.component';
+import { LayerComponent } from './app/components/layer.component';
+import { TabComponent } from './app/components/tab.component';
+import { TabsComponent } from './app/components/tabs.component';
 import { AppComponent }  from './app.component';
 
-import { MapService } from './map.service';
+import { MapService } from './app/services/map.service';
 
 
 @NgModule({
